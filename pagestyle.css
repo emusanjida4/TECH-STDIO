@@ -1,0 +1,94 @@
+/* Reset default margin and font settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background and text alignment */
+body {
+  background: linear-gradient(to right, #ab5362, #753f75); 
+
+}
+
+/* Section styling */
+.contact-section {
+  padding: 50px 0;
+}
+
+/* Centering the main container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Subtext below heading */
+p {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0e0202;
+}
+
+/* Contact form and info side by side */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Left side: form */
+.contact-form {
+  width: 48%;
+}
+
+/* Input and textarea styling */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button styling */
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Right side: contact info */
+.contact-info {
+  width: 45%;
+}
+
+.contact-info h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  text-align: left;
+  margin-bottom: 10px;
+}

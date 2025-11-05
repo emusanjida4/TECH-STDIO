@@ -1,0 +1,15 @@
+body{
+    background: url(image.jpg/istockphoto-517188688-612x612.jpg);
+    background-attachment:fixed;
+}
+h1{
+    color: #CFF527;
+    border-style:inset;
+    border-radius: 15px;
+    
+}
+div{
+    background-color: blueviolet;
+    background-image: ;
+}
+
