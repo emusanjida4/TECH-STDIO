@@ -65,11 +65,13 @@ p {
 
 /* Submit button styling */
 .contact-form button {
-  background-color: #007bff;
+   background: linear-gradient(to right, #94b9dc, #4406a8,#b51dcc); 
+;
   color: white;
   padding: 12px 20px;
+   text-align: right;;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   transition: background 0.3s;
 }

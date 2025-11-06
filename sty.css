@@ -1,0 +1,155 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  background: linear-gradient(to right, #e9eef1, #1a0209);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Page title */
+.container h1 {
+  margin-bottom: 40px;
+  color: #0b3c5d;
+}
+
+
+.contact-box {
+  display: flex;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 40px;
+  justify-content: space-between;
+}
+
+
+.contact-left {
+  flex: 1;
+  padding-right: 40px;
+  text-align: left;
+}
+
+.contact-left h2 {
+  color: #0b3c5d;
+  margin-bottom: 20px;
+}
+
+.contact-info .info-item {
+  margin-bottom: 20px;
+}
+
+.contact-info h3 {
+  color: #0b3c5d;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact-info p {
+  color: #555;
+  line-height: 1.6;
+}
+
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  background: #0b3c5d;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.social-icons a:hover {
+  background: #1f6f8b;
+}
+
+
+.contact-right {
+  flex: 1;
+  text-align: left;
+}
+
+.contact-right h2 {
+  color: #0b3c5d;
+  margin-bottom: 20px;
+}
+
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: linear-gradient(to right, #f2f6f7, #010b12);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+form button:hover {
+  opacity: 0.8;
+}
+
+
+footer {
+  text-align: center;
+  background: #0b3c5d;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #e8c7d0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,207 @@
+/* ========== RESET AND BASE STYLES ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body background gradient */
+body {
+  background: linear-gradient(to right, #c8d8e4, #e8c7d0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ========== CONTAINER ========== */
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Page title */
+.container h1 {
+  margin-bottom: 40px;
+  color: #0b3c5d;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* ========== CONTACT BOX (TWO COLUMNS) ========== */
+.contact-box {
+  display: flex;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* ========== LEFT SIDE ========== */
+.contact-left {
+  flex: 1;
+  text-align: left;
+  padding-right: 40px;
+}
+
+.contact-left h2 {
+  color: #0b3c5d;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+/* Each info item (icon + text) */
+.contact-info .info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+/* The circular gradient icon */
+.contact-info .icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #c9e5ff, #8ab6d6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  color: #0b3c5d;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+/* Text beside icons */
+.contact-info .info-item h3 {
+  color: #0b3c5d;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact-info .info-item p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ========== SOCIAL ICONS ========== */
+.social-icons {
+  margin-top: 25px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  background: #0b3c5d;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.social-icons a:hover {
+  background: #1f6f8b;
+}
+
+/* ========== RIGHT SIDE (FORM) ========== */
+.contact-right {
+  flex: 1;
+  text-align: left;
+}
+
+.contact-right h2 {
+  color: #0b3c5d;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Form fields */
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #1f6f8b;
+  outline: none;
+}
+
+/* Submit button */
+form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: linear-gradient(to right, #1f6f8b, #0b3c5d);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+form button:hover {
+  opacity: 0.8;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  text-align: center;
+  background: #0b3c5d;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer a {
+  color: #e8c7d0;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  .contact-box {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .contact-left {
+    padding-right: 0;
+  }
+
+  form button {
+    font-size: 15px;
+  }
+}
