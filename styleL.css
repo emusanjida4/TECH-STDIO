@@ -1,0 +1,22 @@
+/* Full height carousel */
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+}
+
+/* Make images fill perfectly */
+.image-side img {
+  object-fit: cover;
+}
+
+/* Optional: Form Styling */
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+body {
+  background-color: #f8f9fa;
+}
